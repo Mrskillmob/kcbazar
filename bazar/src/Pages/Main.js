@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { CSSProperties } from '../myStyles.css';
+import { Link } from 'react-router-dom';
 
 function Main() {
   return (
@@ -13,7 +14,7 @@ function Main() {
       <div className="main-page__content">
         <h1 className=''>Vitaj na KCBazar!</h1>
         <p>Od ľudí k ľuďom.</p>
-        <a href='/allItems' ><button className="main-page__btn" >Nakupuj teraz!</button> </a>
+        <Link to='/kcbazar/allItems'  className="main-page__btn" >Nakupuj teraz! </Link>
       </div>
     </div>
       

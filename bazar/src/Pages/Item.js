@@ -58,7 +58,7 @@ function Item() {
             <h1 className="text-lg mt-4 font-bold text-white">{data.autorname}</h1>
             <h1 className="text-lg font-bold text-white">{data.phonenumber}</h1>
             <h1 className="text-lg font-bold text-white">{data.location}</h1>
-            <Link to="/Success"> <button type="button" onClick={deleteFile} className="text-white mt-3 text-xl bg-red-600 p-2 rounder-xl font-bold">DELETE</button> </Link>
+            <Link to="/kcbazar/success"> <button type="button" onClick={deleteFile} className="text-white mt-3 text-xl bg-red-600 p-2 rounder-xl font-bold">DELETE</button> </Link>
 
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
@@ -37,9 +38,9 @@ function Login() {
                     </div>
 
                     <div className="text-sm">
-                    <a href="/register" className="font-medium text-white hover:text-indigo-500">
+                    <Link to="/kcbazar/register" className="font-medium text-white hover:text-indigo-500">
                         Ešte nemáte účet?
-                    </a>
+                    </Link>
                     </div>
                 </div>
 

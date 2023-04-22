@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 function Success() {
   setTimeout(() => { 
-    window.location.replace("/");
+    window.location.replace("/kcbazar");
   }, 2500)
 
   return (
