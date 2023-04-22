@@ -15,16 +15,16 @@ function App() {
     <div className='h-full'>
     <Router>     
       <Routes>
-        <Route  path="/" element={<Main />} />
-        <Route  path="/allItems" element={<Home />} />
+        <Route  path="/kcbazar" element={<Main />} />
+        <Route  path="/kcbazar/allItems" element={<Home />} />
         <Route path="*" element={<ErrorPage />} />
-        <Route path="/item/:id" element={<Item />} />
-        <Route path="/about" element={<About />}/>
-        <Route path="/add" element={<Add/>}/>
-        <Route path="/success" element={<Success/>}/>
-        <Route path="/main" element={<Main/>} />
-        <Route path="/login" element={<Login/>} />
-        <Route path="/register" element={<Register/>} />
+        <Route path="/kcbazar/item/:id" element={<Item />} />
+        <Route path="/kcbazar/about" element={<About />}/>
+        <Route path="/kcbazar/add" element={<Add/>}/>
+        <Route path="/kcbazar/success" element={<Success/>}/>
+        <Route path="/kcbazar/main" element={<Main/>} />
+        <Route path="/kcbazar/login" element={<Login/>} />
+        <Route path="/kcbazar/register" element={<Register/>} />
       </Routes>
     </Router>
     </div>

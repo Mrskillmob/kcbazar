@@ -19,7 +19,7 @@ function Item() {
   useEffect(() => {
     const getData = ()=>{
     console.log(id)
-    axios.get("http://localhost:8080/api/getallitems").then((response) => {
+    axios.get("https://bazar-backend-production.up.railway.app/api/getallitems").then((response) => {
      var tempIndex = response.data.findIndex(p => p.id == id);
      setData(response.data[tempIndex])
     console.log(response.data[tempIndex]) 
@@ -37,7 +37,7 @@ function Item() {
 
   function deleteFile() {
     const data3 = {id: data.id}
-    axios.get("http://localhost:8080/api/delete?id=" + data.id).then(res => {
+    axios.get("https://bazar-backend-production.up.railway.app/api/delete?id=" + data.id).then(res => {
       if (res.status === 200) {
         console.log(res.data);
       }
