@@ -28,7 +28,7 @@ function Add() {
     const file0 = document.querySelector('input[id="fileinput"]').files[0];
     let data = new FormData();
     data.append("file0",file0);
-    axios.post("http://localhost:8080/api/files/uploadFile", data, config).then(res => {
+    axios.post("https://bazar-backend-production.up.railway.app/api/files/uploadFile", data, config).then(res => {
       if (res.status === 200) {
         console.log(res.data);
         let data2 = new FormData();
@@ -39,7 +39,7 @@ function Add() {
         data2.append("location",location);
         data2.append("autorname",autorname);
         data2.append("url",res.data);
-        axios.post("http://localhost:8080/api/uploadItem", data2, config2);
+        axios.post("https://bazar-backend-production.up.railway.app/api/uploadItem", data2, config2);
 
       }
     });
