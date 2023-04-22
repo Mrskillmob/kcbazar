@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-white{
+    color:white;
+}
+
+.bg-red-600{
+background-color: rgb(220 38 38);
+border-radius: 0.5rem;
+color: black;
+}
+
+.bg-black{
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.text-purple{
+    color: red;
+}
+.text-blue{
+color: blue
+
+}
+
+.main-page {
+    background-image: url(./images/mesto.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-page__content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .main-page__btn {
+    padding: 10px 20px;
+    background-color: rgb(220 38 38);   
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .main-page__btn:hover {
+    background-color: red;
+  }
+
+
+
+
+  .about-page {
+    background-color: bg-dark-primary;
+    padding: 50px 0;
+  }
+  
+  .about-page__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-page__heading {
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-decoration-style:wavy;
+    color: red;
+    font-style:oblique;
+    font-weight: bold;
+  }
+  
+  .about-page__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-page__left {
+    width: 250px;
+    margin-right: 50px;
+    
+  }
+  
+  .about-page__photo {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .about-page__right {
+    text-align: left;
+    max-width: 500px;
+  }
+  
+  .about-page__right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-page__right p {
+    margin-bottom: 5px;
+  }
+  
