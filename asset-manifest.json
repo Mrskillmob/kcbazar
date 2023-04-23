@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/kcbazar/static/css/main.a77aa62e.css",
-    "main.js": "/kcbazar/static/js/main.5a383094.js",
+    "main.js": "/kcbazar/static/js/main.aeba6a7b.js",
     "static/js/787.145dd59e.chunk.js": "/kcbazar/static/js/787.145dd59e.chunk.js",
-    "static/media/simon.jpg": "/kcbazar/static/media/simon.3ff911f544e8017c944f.jpg",
     "static/media/product_display.jpg": "/kcbazar/static/media/product_display.814a82c26a236c09a722.jpg",
+    "static/media/simon.jpg": "/kcbazar/static/media/simon.9f790d0678b9bf7d3d71.jpg",
     "static/media/martinko.jpg": "/kcbazar/static/media/martinko.2807055b6c39dfff4464.jpg",
     "static/media/mys.jpg": "/kcbazar/static/media/mys.3f0aa395468d3d7b9627.jpg",
     "static/media/plus.jpg": "/kcbazar/static/media/plus.914188a2e87cc1873f0b.jpg",
     "index.html": "/kcbazar/index.html",
     "main.a77aa62e.css.map": "/kcbazar/static/css/main.a77aa62e.css.map",
-    "main.5a383094.js.map": "/kcbazar/static/js/main.5a383094.js.map",
+    "main.aeba6a7b.js.map": "/kcbazar/static/js/main.aeba6a7b.js.map",
     "787.145dd59e.chunk.js.map": "/kcbazar/static/js/787.145dd59e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a77aa62e.css",
-    "static/js/main.5a383094.js"
+    "static/js/main.aeba6a7b.js"
   ]
 }
