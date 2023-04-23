@@ -58,8 +58,8 @@ function Item() {
             <h1 className="text-lg mt-4 font-bold text-white">Autor: {data.autorname}</h1>
             <h1 className="text-lg font-bold text-white">Telefónne číslo: {data.phonenumber}</h1>
             <h1 className="text-lg font-bold text-white">Lokácia: {data.location}</h1>
-            {/*<Link to="/kcbazar/success"> <button type="button" onClick={deleteFile} className="main-page__btn">Vymazať</button> </Link>*/}
-
+            <Link to="/kcbazar/success"> <button type="button" onClick={deleteFile} className="main-page__btn">Vymazať</button> </Link>
+              {/**/}
           </div>
         </div>
       </div>
