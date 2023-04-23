@@ -50,7 +50,7 @@ function Add() {
       <Navbar />
       <div className="w-full bg-dark-primary h-screen flex flex-row items-center justify-center overflow-x-hidden">
         <div className="w-full h-full grid grid-cols-2 grid-rows-1 ">
-          <img src={plus} className="ml-auto my-auto hidden md:block"/>
+          <img src={plus} className="ml-auto my-auto hidden md:block hover:scale-105"/>
           <div className="m-auto p-10 pr-32">
 
             <h1 className="text-white font-bold text-4xl mb-4">Nahraj položku</h1>
@@ -81,7 +81,7 @@ function Add() {
 
           <div className="mt-10">
             
-              <Link to="/kcbazar/success"><button type="button" onClick={uploadFile} className="text-white text-3xl bg-red-600 p-3 rounder-xl font-bold">PREDAJ!</button>  </Link>
+              <Link to="/kcbazar/success" ><button type="button" onClick={uploadFile} className="text-white text-3xl bg-red-600 p-3 rounder-xl font-bold hover:bg-color-purple">PREDAJ!</button>  </Link>
           </div>
 
           </div>

@@ -10,7 +10,9 @@ module.exports = {
     },
     colors: {
       'navbar': '#202224',
-      'dark-primary': '#1a1c1e'
+      'dark-primary': '#1a1c1e',
+      'biela': '#FFFFFF',
+      'sivaprodukt': '#393939'
     }
   },
   plugins: [],
