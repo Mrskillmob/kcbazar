@@ -53,11 +53,11 @@ function Item() {
           <div className="m-auto p-10 pr-32">
             <h1 className="text-white font-bold text-4xl mb-4">{data.title}</h1>
             
-            <p className="text-white"> {data.description}</p>
-            <h1 className="text-2xl mt-16 font-bold text-white">{data.price + " €"}</h1>
-            <h1 className="text-lg mt-4 font-bold text-white">{data.autorname}</h1>
-            <h1 className="text-lg font-bold text-white">{data.phonenumber}</h1>
-            <h1 className="text-lg font-bold text-white">{data.location}</h1>
+            <p className="text-white">Popis: {data.description}</p>
+            <h1 className="text-2xl mt-16 font-bold text-white">Cena: {data.price + " €"}</h1>
+            <h1 className="text-lg mt-4 font-bold text-white">Autor: {data.autorname}</h1>
+            <h1 className="text-lg font-bold text-white">Telefónne číslo: {data.phonenumber}</h1>
+            <h1 className="text-lg font-bold text-white">Lokácia: {data.location}</h1>
             {/*<Link to="/kcbazar/success"> <button type="button" onClick={deleteFile} className="main-page__btn">Vymazať</button> </Link>*/}
 
           </div>
