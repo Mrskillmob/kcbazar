@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kcbazar/static/css/main.36eeb0c0.css",
-    "main.js": "/kcbazar/static/js/main.5bb80c77.js",
+    "main.js": "/kcbazar/static/js/main.74625e68.js",
     "static/js/787.145dd59e.chunk.js": "/kcbazar/static/js/787.145dd59e.chunk.js",
     "static/media/mesto.jpg": "/kcbazar/static/media/mesto.d8a45d34dd433c66f3b9.jpg",
     "static/media/simonko.jpg": "/kcbazar/static/media/simonko.1f7ae68f236cc1dca823.jpg",
@@ -10,11 +10,11 @@
     "static/media/plus.jpg": "/kcbazar/static/media/plus.914188a2e87cc1873f0b.jpg",
     "index.html": "/kcbazar/index.html",
     "main.36eeb0c0.css.map": "/kcbazar/static/css/main.36eeb0c0.css.map",
-    "main.5bb80c77.js.map": "/kcbazar/static/js/main.5bb80c77.js.map",
+    "main.74625e68.js.map": "/kcbazar/static/js/main.74625e68.js.map",
     "787.145dd59e.chunk.js.map": "/kcbazar/static/js/787.145dd59e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36eeb0c0.css",
-    "static/js/main.5bb80c77.js"
+    "static/js/main.74625e68.js"
   ]
 }
