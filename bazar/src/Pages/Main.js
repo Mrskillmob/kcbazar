@@ -14,7 +14,7 @@ function Main() {
       <div className="main-page__content">
         <h1 className=''>KCBazar!</h1>
         <p>Od ľudí k ľuďom.</p>
-        <Link to='/kcbazar/allItems'  className="main-page__btn" >Nakupuj teraz! </Link>
+        <Link to='/kcbazar/allItems'>  <button className="main-page__btn">Nakupuj teraz!</button> </Link>
       </div>
     </div>
       
