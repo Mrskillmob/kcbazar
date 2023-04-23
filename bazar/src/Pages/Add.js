@@ -81,7 +81,7 @@ function Add() {
 
           <div className="mt-10">
             
-              <button type="button" onClick={uploadFile} className="text-white text-3xl bg-red-600 p-3 rounder-xl font-bold">PREDAJ!</button>  
+              <Link to="/kcbazar/success"><button type="button" onClick={uploadFile} className="text-white text-3xl bg-red-600 p-3 rounder-xl font-bold">PREDAJ!</button>  </Link>
           </div>
 
           </div>

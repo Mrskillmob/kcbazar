@@ -33,7 +33,7 @@ function Home() {
        console.log(item)
       return(
         <Link to={"/kcbazar/item/" + item.id} className="h-full w-full flex flex-col">
-            <img className="w-full aspect-[16/9] bg-black object-contain" src={item.url}/>
+            <img className="w-full aspect-[16/9] bg-navbar object-contain" src={item.url}/>
             <h1 className="text-white text-2xl mt-2 font-bold">{item.price + " €"}</h1>
         </Link>
       )
