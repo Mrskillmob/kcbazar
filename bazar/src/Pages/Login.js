@@ -20,12 +20,12 @@ function Login() {
                 <input type="hidden" name="remember" value="true" />
                 <div className="rounded-md shadow-sm -space-y-px">
                     <div>
-                    <label htmlFor="email-address" className="sr-only">Email address</label>
-                    <input id="email-address" name="email" type="email" autoComplete="email" required className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Email address" />
+                    <label htmlFor="email-address" className="sr-only">Emailová adresa</label>
+                    <input id="email-address" name="email" type="email" autoComplete="email" required className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Emailová adresa" />
                     </div>
                     <div>
-                    <label htmlFor="password" className="sr-only">Password</label>
-                    <input id="password" name="password" type="password" autoComplete="current-password" required className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Password" />
+                    <label htmlFor="password" className="sr-only">Heslo</label>
+                    <input id="password" name="heslo" type="password" autoComplete="current-password" required className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Heslo" />
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ function Login() {
                 </div>
 
                 <button type="button"  className="text-white text-3xl bg-red-600 p-3 rounder-xl font-bold group relative 
-                    w-full flex justify-center py-2 px-4">LOGIN!</button>
+                    w-full flex justify-center py-2 px-4">Prihlásiť!</button>
                 
                     
                     
