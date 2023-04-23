@@ -12,7 +12,7 @@ function Main() {
 
       <div className="main-page">
       <div className="main-page__content">
-        <h1 className=''>Vitaj na KCBazar!</h1>
+        <h1 className=''>Vitaj na KCBazar! aaadgggbebrbr</h1>
         <p>Od ľudí k ľuďom.</p>
         <Link to='/kcbazar/allItems'  className="main-page__btn" >Nakupuj teraz! </Link>
       </div>
