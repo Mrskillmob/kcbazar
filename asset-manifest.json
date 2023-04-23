@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kcbazar/static/css/main.ec2e73cb.css",
-    "main.js": "/kcbazar/static/js/main.089a8991.js",
+    "main.css": "/kcbazar/static/css/main.01cea33a.css",
+    "main.js": "/kcbazar/static/js/main.eb59dca3.js",
     "static/js/787.145dd59e.chunk.js": "/kcbazar/static/js/787.145dd59e.chunk.js",
     "static/media/product_display.jpg": "/kcbazar/static/media/product_display.814a82c26a236c09a722.jpg",
     "static/media/simonko.jpg": "/kcbazar/static/media/simonko.1f7ae68f236cc1dca823.jpg",
@@ -9,12 +9,12 @@
     "static/media/mys.jpg": "/kcbazar/static/media/mys.3f0aa395468d3d7b9627.jpg",
     "static/media/plus.jpg": "/kcbazar/static/media/plus.914188a2e87cc1873f0b.jpg",
     "index.html": "/kcbazar/index.html",
-    "main.ec2e73cb.css.map": "/kcbazar/static/css/main.ec2e73cb.css.map",
-    "main.089a8991.js.map": "/kcbazar/static/js/main.089a8991.js.map",
+    "main.01cea33a.css.map": "/kcbazar/static/css/main.01cea33a.css.map",
+    "main.eb59dca3.js.map": "/kcbazar/static/js/main.eb59dca3.js.map",
     "787.145dd59e.chunk.js.map": "/kcbazar/static/js/787.145dd59e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec2e73cb.css",
-    "static/js/main.089a8991.js"
+    "static/css/main.01cea33a.css",
+    "static/js/main.eb59dca3.js"
   ]
 }
